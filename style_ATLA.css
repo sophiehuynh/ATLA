@@ -1,0 +1,194 @@
+
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 400px;
+    height: 60px;
+    text-align:center;
+    padding:0px;
+    margin:0px;
+}
+.nav {
+    height: 20px;
+    width: 50px;
+    font-family: "Marcellus SC";
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+h6 {
+    font-family: "Rock Salt";
+    font-size: 70px;
+    text-align: center;
+    margin-bottom:0px;
+    border-top: solid 4px black;
+}
+
+.Element {
+    font-family: "Rock Salt";
+    font-size: 70px;
+    text-align: center;
+    margin-bottom:0px;
+    justify-content: center;
+}
+
+
+body {
+    background-color: rgb(130, 182, 179);
+    padding-bottom:150px;
+}
+
+
+
+
+
+/* ---------- Title ---------- */
+
+.title {
+    display:grid;
+    height: 350px;
+    grid-template-rows:150px 50px 100px 50px;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+
+h1 {
+    color:black;
+    font-family: "Rock Salt";
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    grid-area: 1 / 1 / 3 / 2;
+
+}
+h2 {
+    color: black;
+    font-family: "Marcellus SC";
+    text-align: center;
+    grid-area: 3 / 1 / 4 / 2;
+    font-size: 30px;
+}
+
+.center {
+    text-align: center;
+    display:block;
+
+}
+
+/* ---------- Character Profiles ---------- */
+.grid {
+    display: grid;
+    grid-template-rows: repeat(1, 300px);
+    grid-template-columns: repeat(4, 200px);
+    grid-auto-rows: 500px;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 50px;
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+.box {
+    border: 4px solid black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 300px;
+    box-shadow: 10px 5px 5px rgb(6, 59, 61);
+}
+
+
+
+
+
+/* ---------- Elements ---------- */
+
+.air {
+    background-color:  rgb(187, 227, 230);
+}
+
+.water {
+    background-color: rgb(120, 153, 197);
+}
+
+.earth {
+    background-color: rgb(135, 189, 147);
+}
+
+.fire {
+    background-color: rgb(182, 92, 76);
+}
+
+footer {
+    height: 150px;
+    width:100%;
+    background-color:rgb(0, 0, 0);
+    font-family:"Sacramento";
+    font-size: 45px;
+    color: rgb(255, 226, 209);
+    text-align: center;
+    border:3px solid black;
+    position:absolute;
+    margin-left:-10px;
+}
+
+/* --------- Typography ---------- */
+
+.name1 {
+    font-family:"Rock Salt";
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border: 0px;
+}
+
+.name2 {
+    font-family:"Rock Salt";
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    padding-bottom: 0px;
+    border: 0px;
+}
+
+.label {
+    font-family: "Marcellus SC";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.description {
+    font-family: "Marcellus SC";
+    font-size: 15px;
+}
+
+#map {
+    text-align:center;
+}
+
+.elementtitle {
+    text-align:center;
+    border-top: 4px solid black;
+}
+
+.Quote {
+    width:300px;
+    font-family: "Marcellus SC";
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    left: 650px;
+}
+
+audio {
+
+
+
+}
